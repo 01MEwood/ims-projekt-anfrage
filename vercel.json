@@ -1,5 +1,11 @@
 {
   "framework": "nextjs",
   "buildCommand": "npm run build",
-  "outputDirectory": ".next"
+  "outputDirectory": ".next",
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://zvojdnbqcmxvzcvpgenv.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp2b2pkbmJxY214dnpjdnBnZW52Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM0MDc2MTcsImV4cCI6MjA4ODk4MzYxN30.jegqIMjEG-R--9_aTMolur_8RHTIlQ10G7XhPtfj1n0",
+    "ADMIN_PASSWORD": "ims2026!",
+    "NOTIFY_EMAIL": "mario@marioesch.de"
+  }
 }
